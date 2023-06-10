@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import { copy, linkIcon, loader, tick } from "../assets"
 import { useLazyGetSummaryQuery } from "../services/article"
+import axios from "axios"
 
 const Demo = () => {
   const [article, setArticle] = useState({
